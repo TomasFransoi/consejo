@@ -8,11 +8,12 @@ const Navbar = () =>{
             <div className='opciones'>
                 <Link to='/' className="Opcion"><button>Inicio</button></Link>
                 <Link to='/Lista' className="Opcion"><button>Lista</button></Link>
-                <Link to='/Propuestas' className="Opcion"><button>Propuestas</button></Link>
+                
             </div>
 
         </nav>
         </div>
     )
 }
+//<Link to='/Propuestas' className="Opcion"><button>Propuestas</button></Link>
 export default Navbar
