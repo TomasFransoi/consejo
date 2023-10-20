@@ -2,9 +2,9 @@ const Inicio = ()=>{
     return(
         <>
         <section>
-            <h1>Centros de estudiantes</h1>
+            <h1>Consejo de estudiantes</h1>
             <article>
-                <h2>¿Qué es un centro de estudiantes?</h2>
+                <h2>¿Qué es un Consejo de estudiantes?</h2>
                 <p>
                 Es un órgano democrático de representación de las y los estudiantes.
                 </p>
