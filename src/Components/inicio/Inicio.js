@@ -29,15 +29,6 @@ const Inicio = ()=>{
                     <li>Promover la participación en los problemas educativos.</li>
                     <li>Gestionar ante las autoridades los pedidos y necesidades de alumnos y alumnas.</li>
                     <li>Insertar a los estudiantes en la sociedad a través de acciones que beneficien a la comunidad.</li>
-                    <li>Formar a las y los estudiantes en las prácticas democráticas, republicanas y federales.</li>
-                    <li>Defender los derechos humanos.</li>
-                    <li>Defender el derecho a aprender.</li>
-                    <li>Afianzar el derecho a la libre expresión.</li>
-                    <li>Reconocer a la educación pública como un derecho.</li>
-                    <li>Contribuir a mejorar la calidad de la educación.</li>
-                    <li>Promover la participación en los problemas educativos.</li>
-                    <li>Gestionar ante las autoridades los pedidos y necesidades de alumnos y alumnas.</li>
-                    <li>Insertar a los estudiantes en la sociedad a través de acciones que beneficien a la comunidad.</li>
                 </ol>
             </article>
         </section>
