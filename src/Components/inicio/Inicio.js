@@ -12,6 +12,9 @@ const Inicio = ()=>{
                 <p>
                 Es una organización formada por alumnos y alumnas de establecimientos educativos para defender sus derechos. También fomenta la participación joven dentro y fuera de la escuela.
                 </p>
+                <p>
+                Órgano de representación estudiantil elegido democráticamente y compuesto por presidente, vicepresidente, secretaria por cada especialidad, finanzas, prensa y asuntos estudiantiles. Es un órgano colegiado que busca la preservación de los derechos de los estudiantes y la mejoría de la institución.
+                </p>
             </article>
             <article>
                 <h2>¿Dónde funcionan?</h2>
