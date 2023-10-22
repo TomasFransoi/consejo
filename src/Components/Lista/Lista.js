@@ -1,8 +1,10 @@
+import "./Propuestas.css"
 const Lista = () =>{
     return(
         <>
-        <h1>Lista</h1>
+
         <section>
+            <h1>Lista</h1>
             <article>
                 <h2>PRESIDENCIA</h2>
                 <h3>Presidenta: Mercado Lola</h3>
