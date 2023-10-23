@@ -8,7 +8,6 @@ import Footer from "./Components/Footer/Footer"
 function App() {
   return (
     <>
-    <META HTTP-EQUIV="REFRESH" CONTENT="5;URL=https://lolaameercado.wixsite.com/metanoia"></META>
     <div className="App">
             <BrowserRouter>
             <Navbar />
