@@ -43,7 +43,7 @@ article{
 @media screen and (max-width: 1200px) {
     .Equipo {
         grid-template-columns: 2fr 283px 283px 2fr;
-        grid-template-rows: 100px 283px 283px 283px 283px;
+        grid-template-rows: 100px 150px 150px 150px 150px;
         grid-template-areas: "a c c b" "a d e b" "a f g b" "a h i b" "a j k b";
         .Titulo{
             display: flex;
@@ -80,7 +80,7 @@ article{
 @media screen and (max-width: 575px) {
     .Equipo {
         grid-template-columns: 2fr 283px 2fr;
-        grid-template-rows: 100px 283px 283px 283px 283px 283px 283px 283px 283px;
+        grid-template-rows: 100px 150px 150px 150px 150px 150px 150px 150px 150px;
         grid-template-areas: "a c b" "a d b" "a e b" "a f b" "a g b" "a h b" "a i b" "a j b" "a k b";
         .Titulo{
             display: flex;
