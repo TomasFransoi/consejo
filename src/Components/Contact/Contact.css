@@ -1,0 +1,55 @@
+.contact{
+    display: flex;
+    background-color: #C5EA7F;
+    justify-content:center;
+}
+.Co{
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.CoT{
+    width: 50%;
+}
+.CoI{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+    background-color: #C7F966;
+    justify-content:center;
+    align-items: center;
+}
+.CoC{
+    width: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+@media screen and (max-width: 800px) {
+    .Co{
+        width: 75%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .Co{
+        width: 85%;
+    }
+}
+@media screen and (max-width: 610px) {
+    .Co{
+        flex-direction: column;
+        height: auto;
+    }
+    .CoT{
+        width: 100%;
+    }
+    .CoC{
+        margin-top: 10px;
+        height: 100px;
+        width: 100%;
+    }
+}

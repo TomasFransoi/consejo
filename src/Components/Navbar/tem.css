@@ -1,0 +1,55 @@
+.button{
+    background-color: #84685A;
+    width: 100px;
+    height: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+  }
+  a:link {
+    color: #000000;
+  }
+  
+  a:visited {
+    color: #000000;
+  }
+.meta{
+    margin-left: 10px;
+}
+@media screen and (max-width: 600px) {
+
+    nav{
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        flex-direction: column;
+        width: 100%;
+    
+    }
+
+  }
+  @media screen and (max-width: 450px) {
+    .nav{
+        flex-direction: column;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .button{
+        margin: 5px;
+    }
+
+  }
+  nav{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+
+}

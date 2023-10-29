@@ -1,6 +1,52 @@
 article{
     margin-top: 40px;
 }
-section{
+.Inicio{
+    display: flex;
+    align-content: center;
+    justify-content:center;
+    background-color: #DFF2F4;
+}
+.QS{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    margin-bottom: 20px;
+}
+.SI{
+    width: 60%;
+}
+.ST{
+    width: 35%;
     margin-left: 10px;
+}
+img{
+    width: 100%;
+}
+@media screen and (max-width: 1450px) {
+    .QS{
+        width: 70%;
+        }
+    .ST{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 1250px) {
+    .QS{
+        width: 80%;
+        }
+}
+@media screen and (max-width: 1250px) {
+    .QS{
+        width: 80%;
+        flex-direction: column;
+        }
+        .SI{
+            width: 100%;
+        }
+        .ST{
+            width: 100%;
+            margin-left: 10px;
+        }
 }

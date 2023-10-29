@@ -1,0 +1,116 @@
+article{
+    margin: 10px;
+}
+
+.Equipo {
+    background-color: #FF6946;
+    display: grid;
+    justify-content:center;
+    grid-template-columns: 2fr 283px 283px 283px 283px 2fr;
+    grid-template-rows: 100px 283px 283px ;
+    grid-template-areas: "a c c c c b" "a d e f g b" "a h i j k b";
+    .Titulo{
+        display: flex;
+        grid-area: c;
+        align-items: center;
+        justify-content:center;
+    }
+    .EquipoPr{
+        grid-area: d;
+    }
+    .EquipoGe{
+        grid-area: e;
+    }
+    .EquipoHu{
+        grid-area: f;
+    }
+    .EquipoNa{
+        grid-area: g;
+    }
+    .EquipoEF{
+        grid-area: h;
+    }
+    .EquipoPD{
+        grid-area: i;
+    }
+    .EquipoAE{
+        grid-area: j;
+    }
+    .EquipoFi{
+        grid-area: k;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .Equipo {
+        grid-template-columns: 2fr 283px 283px 2fr;
+        grid-template-rows: 100px 283px 283px 283px 283px;
+        grid-template-areas: "a c c b" "a d e b" "a f g b" "a h i b" "a j k b";
+        .Titulo{
+            display: flex;
+            grid-area: c;
+            align-items: center;
+            justify-content:center;
+        }
+        .EquipoPr{
+            grid-area: d;
+        }
+        .EquipoGe{
+            grid-area: e;
+        }
+        .EquipoHu{
+            grid-area: f;
+        }
+        .EquipoNa{
+            grid-area: g;
+        }
+        .EquipoEF{
+            grid-area: h;
+        }
+        .EquipoPD{
+            grid-area: i;
+        }
+        .EquipoAE{
+            grid-area: j;
+        }
+        .EquipoFi{
+            grid-area: k;
+        }
+    }
+}
+@media screen and (max-width: 575px) {
+    .Equipo {
+        grid-template-columns: 2fr 283px 2fr;
+        grid-template-rows: 100px 283px 283px 283px 283px 283px 283px 283px 283px;
+        grid-template-areas: "a c b" "a d b" "a e b" "a f b" "a g b" "a h b" "a i b" "a j b" "a k b";
+        .Titulo{
+            display: flex;
+            grid-area: c;
+            align-items: center;
+            justify-content:center;
+        }
+        .EquipoPr{
+            grid-area: d;
+        }
+        .EquipoGe{
+            grid-area: e;
+        }
+        .EquipoHu{
+            grid-area: f;
+        }
+        .EquipoNa{
+            grid-area: g;
+        }
+        .EquipoEF{
+            grid-area: h;
+        }
+        .EquipoPD{
+            grid-area: i;
+        }
+        .EquipoAE{
+            grid-area: j;
+        }
+        .EquipoFi{
+            grid-area: k;
+        }
+    }
+}

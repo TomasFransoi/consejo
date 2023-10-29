@@ -1,39 +1,20 @@
 import "./Inicio.css"
+import img from "./img.jpeg"
 const Inicio = ()=>{
     return(
         <>
-        <section>
-            <h1>Consejo de estudiantes</h1>
-            <article>
-                <h2>¿Qué es un Consejo de estudiantes?</h2>
-                <p>
-                Es un órgano democrático de representación de las y los estudiantes.
-                </p>
-                <p>
-                Es una organización formada por alumnos y alumnas de establecimientos educativos para defender sus derechos. También fomenta la participación joven dentro y fuera de la escuela.
-                </p>
-                <p>
-                Órgano de representación estudiantil elegido democráticamente y compuesto por presidente, vicepresidente, secretaria por cada especialidad, finanzas, prensa y asuntos estudiantiles. Es un órgano colegiado que busca la preservación de los derechos de los estudiantes y la mejoría de la institución.
-                </p>
-            </article>
-            <article>
-                <h2>¿Dónde funcionan?</h2>
-                <p>Funcionan en instituciones educativas públicas: escuelas secundarias, institutos de educación superior, instituciones para adultos y de formación profesional.</p>
-            </article>
-            <article>
-                <h2>¿Para qué sirven?</h2>
-                <ol>
-                    <li>Formar a las y los estudiantes en las prácticas democráticas, republicanas y federales.</li>
-                    <li>Defender los derechos humanos.</li>
-                    <li>Defender el derecho a aprender.</li>
-                    <li>Afianzar el derecho a la libre expresión.</li>
-                    <li>Reconocer a la educación pública como un derecho.</li>
-                    <li>Contribuir a mejorar la calidad de la educación.</li>
-                    <li>Promover la participación en los problemas educativos.</li>
-                    <li>Gestionar ante las autoridades los pedidos y necesidades de alumnos y alumnas.</li>
-                    <li>Insertar a los estudiantes en la sociedad a través de acciones que beneficien a la comunidad.</li>
-                </ol>
-            </article>
+        <section className="Inicio">
+            <div className="QS">
+                <div className="SI">
+                    <img src={img}/>
+                </div>
+                <div className="ST">
+                    <h1>¿Quienes somos?</h1>
+                    <p>Somos postulantes para el consejo de Estudiantes del colegio FASTA villa eucarística, el máximo órgano de representación estudiantil del colegio.Es muy importante que estemos en estos órganos,sino porque debemos defender una educación que sea de calidad, además de promover un colegio lleno de proyectos interesantes.</p>
+                </div>
+            </div>
+
+
         </section>
         </>
     )
