@@ -32,7 +32,7 @@ const Lista = () =>{
             </article>
             <article className="EquipoPD">
                 <h2>Prensa y Difusión</h2>
-                <h3>Titular: Alarcón Antonella</h3>
+                <h3>Titular: Joaquin Recalde</h3>
                 <h3>Suplente: Julián Onofrio</h3>
             </article>
             <article className="EquipoAE">
